@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+* {
+    font-size: 13px;
+}
+
+/* Instagram Sans Regular */
+@font-face {
+  font-family: 'Instagram Sans';
+  src: url('../font/Instagram Sans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Instagram Sans Light */
+@font-face {
+  font-family: 'Instagram Sans';
+  src: url('../font/Instagram Sans Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Instagram Sans Medium */
+@font-face {
+  font-family: 'Instagram Sans';
+  src: url('../font/Instagram Sans Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Instagram Sans Bold */
+@font-face {
+  font-family: 'Instagram Sans';
+  src: url('../font/Instagram Sans Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
