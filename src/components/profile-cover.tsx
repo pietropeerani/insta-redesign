@@ -22,7 +22,7 @@ export default function ProfileCover() {
                     </div>
                 </div>
             </div>
-            <div className="text-white bg-white/20 backdrop-blur-lg rounded-xl py-4 px-6">
+            <div className="text-white bg-white/20 backdrop-blur-lg rounded-2xl py-4 px-6">
                 <p>Host di <span className="font-bold cursor-pointer"><span className="bg-[linear-gradient(-45deg,#F3C94E,#EE8131,#E84379,#EA356A,#6E3BF1,#C128BF)] bg-clip-text text-transparent mr-0.5">@</span>caffè_design</span><br />
                     Progetto, rido, fallisco e documento tutto qui.
                 </p>
