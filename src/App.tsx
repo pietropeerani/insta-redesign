@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import Header from './components/header';
 import ProfileCover from './components/profile-cover';
 import Navbar from './components/navbar';
+import CarouselStories from './components/carousel-stories';
+import Feed from './components/feed';
 
 export default function App() {
   const [isSupportedScreen, setIsSupportedScreen] = useState(window.innerWidth <= 428 && window.innerHeight <= 926);
@@ -19,14 +21,17 @@ export default function App() {
   if (isSupportedScreen) {
     return (
       <>
-        <Header />
-        <ProfileCover />
         <div className="super-ellipse"></div>
         <div className="fixed top-0 left-0 -z-20">
           <div className="absolute z-0 top-1/4 left-0 h-full w-full bg-[linear-gradient(#66D3C200,#00504E_37%)]"></div>
           <img src="/cover.png" alt="" />
         </div>
         <Navbar />
+
+
+        <Header />
+        <ProfileCover />
+        <CarouselStories />
       </>
     );
   } else {
