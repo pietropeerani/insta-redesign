@@ -32,6 +32,7 @@ export default function App() {
         <Header />
         <ProfileCover />
         <CarouselStories />
+        <Feed />
       </>
     );
   } else {
